@@ -29,10 +29,48 @@ This project explores **Chicago crime data (2019-2024)** to identify trends in c
 📌 **Vehicle theft spikes from July to November**, likely due to increased travel  
 📌 **Crime hotspots include Community Areas 8 & 32**, with theft & battery most prevalent  
 
+## 🚀 Technologies Used  
+
+### 🔹 Programming Languages & Tools  
+- **R** – Primary language for statistical modeling & visualization  
+- **Kali Linux Terminal** – Data extraction & filtering  
+- **RStudio** – Development environment for R  
+
+### 🔹 Libraries & Frameworks  
+#### 🖥 **R Packages:**  
+- 📊 `ggplot2` – Data visualization  
+- 🏠 `sf` – Geospatial mapping  
+- 🏗 `dplyr`, `tidyverse` – Data wrangling  
+- 📅 `lubridate` – Date-time processing
+
+## 🛠 How to Run the Project  
+
+### 1️⃣ **Set Up the Environment**  
+#### Install R and required packages:  
+```r
+install.packages(c("ggplot2", "dplyr", "lubridate", "tidyverse", "sf"))
+```
+### 2️⃣ **Clone the Repository**  
+```bash
+git clone https://github.com/your-username/chicago-crime-analysis.git
+cd chicago-crime-analysis
+```
+
+### 3️⃣ **Run the Analysis**  
+- Open **RStudio**   
+- Load the dataset (CSV)  
+- Execute the R scripts to generate visualizations and insights  
+
+
 ## 📌 **Future Enhancements**  
 🔹 Use **ARIMA or Prophet models** to predict future crime trends  
 🔹 Improve **geospatial mapping** using advanced tools like Leaflet & sf  
 🔹 Incorporate **socioeconomic indicators** to assess crime correlations  
 
-## 📜 **License**  
-For academic and research purposes. Feel free to explore and extend!  
+## 🤝 Contributing  
+Want to improve the project? Fork the repo, create a branch, and submit a pull request!
+📩 **Contact Us:** If you have any questions, feel free to open an issue.  
+
+---
+
+🎯 **Let's make cities safer with data-driven insights!** 🚀  
